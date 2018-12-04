@@ -12,7 +12,7 @@ body {
     background-color: grey;
 }
 
-h2 {
+#rules {
     margin-bottom: 0px; 
     text-decoration: underline;
 }
@@ -49,4 +49,58 @@ ul {
 a {
     font-size: 1.3em;
     text-decoration: none;
+}
+
+
+/* Menu */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+li.menu-item {
+    display: inline;
+}
+
+li.menu-item a {
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.menu-item a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li.menu-item a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+/* Progress Bars */
+
+.progress-bar {
+    height: 50px;
+    margin: 10px;
+    border: 1px solid red;
+    background-color: green;
+}
+
+.progress-item {
+    width: 4%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    margin-right: 0px;
+    height: 40px;
+    border: 1px solid purple;
+    background-color: plum;
+    float: left;
 }
