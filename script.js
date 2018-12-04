@@ -1,6 +1,6 @@
 let achievements = [
     // Level 0
-    ["Animate Name", "Make Music", "Pong Game"],
+    ["Animate Name", "Make Music", "Pong Game", "Race to Finish"],
     // Level 1
     ["Make It Fly", "Create Story"],
     // Level 2
@@ -27,7 +27,7 @@ let students = [
 ];
 
 // Amber
-//students[0].student_achievements.push(achievements[0][1]);
+//students[0].student_achievements.push(achievements[0][3]);
 
 // Cooper
 
