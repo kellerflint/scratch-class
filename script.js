@@ -1,8 +1,8 @@
 let achievements = [
     // Level 0
-    ["Animate Name", "Make Music", "Pong Game", "Race to Finish"],
+    ["Animate Name", "Make Music", "Let's Dance", "Race to Finish"],
     // Level 1
-    ["Make It Fly", "Create Story"],
+    ["Make It Fly", "Create Story", "Race to Finish"],
     // Level 2
     []
 ];
