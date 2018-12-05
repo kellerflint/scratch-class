@@ -2,7 +2,7 @@ let achievements = [
     // Level 0
     ["Animate Name", "Make Music", "Let's Dance", "Race to Finish"],
     // Level 1
-    ["Make It Fly", "Create Story", "Race to Finish"],
+    ["Make It Fly", "Create Story", "Pong Game"],
     // Level 2
     []
 ];
@@ -27,13 +27,21 @@ let students = [
 ];
 
 // Amber
-//students[0].student_achievements.push(achievements[0][3]);
+students[0].student_achievements.push(achievements[0][1]);
+students[0].student_achievements.push(achievements[0][3]);
+students[0].student_achievements.push(achievements[1][2]);
+students[0].student_achievements.push(achievements[0][0]);
+students[0].student_achievements.push(achievements[0][2]);
+
 
 // Cooper
 
 // Ethan
+students[2].student_achievements.push(achievements[1][2]);
 
 // Sergiu
+students[3].student_achievements.push(achievements[1][2]);
+students[3].student_achievements.push(achievements[0][3]);
 
 for (let i in students) {
     let student_bar = students[i].name.toLocaleLowerCase();
