@@ -4,7 +4,7 @@ let achievements = [
     // Level 1
     ["Make It Fly", "Create Story", "Pong Game", "Level 1 Test"],
     // Level 2
-    []
+    ["Catch Game", "TODO", "TODO", "Level 2 Test"]
 ];
 
 let students = [
@@ -34,6 +34,7 @@ students[0].student_achievements.push(achievements[0][2]);
 students[0].student_achievements.push(achievements[1][2]);
 students[0].student_achievements.push(achievements[1][0]);
 students[0].student_achievements.push(achievements[1][1]);
+students[0].student_achievements.push(achievements[2][0]);
 students[0].student_achievements.push(achievements[0][4]);
 
 
