@@ -104,3 +104,16 @@ li.menu-item a.active {
     background-color: plum;
     float: left;
 }
+
+/* Standards */
+
+#standards {
+    text-align: left;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#standards ul li{
+    list-style-type: disc;
+    padding-top: 20px;
+}

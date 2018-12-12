@@ -1,8 +1,8 @@
 let achievements = [
     // Level 0
-    ["Animate Name", "Make Music", "Let's Dance", "Race to Finish"],
+    ["Animate Name", "Make Music", "Let's Dance", "Race to Finish", "Level 0 Test"],
     // Level 1
-    ["Make It Fly", "Create Story", "Pong Game"],
+    ["Make It Fly", "Create Story", "Pong Game", "Level 1 Test"],
     // Level 2
     []
 ];
@@ -29,9 +29,11 @@ let students = [
 // Amber
 students[0].student_achievements.push(achievements[0][1]);
 students[0].student_achievements.push(achievements[0][3]);
-students[0].student_achievements.push(achievements[1][2]);
 students[0].student_achievements.push(achievements[0][0]);
 students[0].student_achievements.push(achievements[0][2]);
+//students[0].student_achievements.push(achievements[0][4]); // level 0 standard complete
+students[0].student_achievements.push(achievements[1][2]);
+
 
 
 // Cooper
@@ -40,8 +42,9 @@ students[0].student_achievements.push(achievements[0][2]);
 students[2].student_achievements.push(achievements[1][2]);
 
 // Sergiu
-students[3].student_achievements.push(achievements[1][2]);
 students[3].student_achievements.push(achievements[0][3]);
+students[3].student_achievements.push(achievements[1][2]);
+
 
 for (let i in students) {
     let student_bar = students[i].name.toLocaleLowerCase();
@@ -56,9 +59,4 @@ for (let i in students) {
 
         document.getElementById(student_bar).appendChild(progress_item);
     }
-
-
-
-
-
 }
