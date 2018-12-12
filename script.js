@@ -31,9 +31,10 @@ students[0].student_achievements.push(achievements[0][1]);
 students[0].student_achievements.push(achievements[0][3]);
 students[0].student_achievements.push(achievements[0][0]);
 students[0].student_achievements.push(achievements[0][2]);
-//students[0].student_achievements.push(achievements[0][4]); // level 0 standard complete
 students[0].student_achievements.push(achievements[1][2]);
-
+students[0].student_achievements.push(achievements[1][0]);
+students[0].student_achievements.push(achievements[1][1]);
+students[0].student_achievements.push(achievements[0][4]);
 
 
 // Cooper
@@ -42,8 +43,11 @@ students[0].student_achievements.push(achievements[1][2]);
 students[2].student_achievements.push(achievements[1][2]);
 
 // Sergiu
+students[3].student_achievements.push(achievements[0][1]);
 students[3].student_achievements.push(achievements[0][3]);
 students[3].student_achievements.push(achievements[1][2]);
+students[3].student_achievements.push(achievements[0][1]);
+students[3].student_achievements.push(achievements[0][2]);
 
 
 for (let i in students) {
